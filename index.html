@@ -206,17 +206,12 @@
     </footer>
 </div>
 <script src="js/base64.min.js"></script>
+<script src="js/utils.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", () => {
     let btn = document.querySelector('#click-btn'),
         contact1 = document.querySelector('#contact1'),
         contact2 = document.querySelector('#contact2');
-
-    const contactData = {
-        0: '5b6u5L+h77yaaHVhbmd6aG9uZzU2OTA=',
-        1: '55S16K+d77yaKDg2KSAxODYxMTM5NTY5MA==',
-        2: '6YKu566x77yaYnVzaW5lc3NAbmVhdC1yZWFkZXIubmV0'
-    };
 
     const arr = [];
     for (let key in contactData) {
@@ -231,7 +226,6 @@ document.addEventListener("DOMContentLoaded", () => {
         contact2.style.display = 'block';
 
         Array.from(item).forEach((ele, idx) => {
-            console.log(ele, idx);
             ele.innerHTML = arr[idx];
         });
     });
