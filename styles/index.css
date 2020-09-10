@@ -204,6 +204,7 @@
     height: 45px;
 }
 .container .application-wrap .button-box .button{
+    display: block;
     flex: 0 0 200px;
     line-height: 45px;
     background: #3764e7;
