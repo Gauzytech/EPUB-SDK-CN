@@ -222,7 +222,7 @@
     padding-right: 80px;
     width: 1200px;
     height: 516px;
-    margin-bottom: 116px;
+    margin-bottom: 140px;
 }
 .container .device-wrap > div{
     position: absolute;
@@ -258,7 +258,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 10px 58px 132px;
+    padding: 20px 76px 132px;
     box-sizing: border-box;
 }
 .container .device-list{
@@ -314,7 +314,7 @@
     font-size: 13px;
     font-weight: 700;
     color: #fff;
-    background: #0099fa;
+    background: #3764e7;
     border-radius: 13px;
     text-align: center;
 }
