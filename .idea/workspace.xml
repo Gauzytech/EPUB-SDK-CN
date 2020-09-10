@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5f6f141-af9b-442a-a9d4-36e078db91dd" name="Default Changelist" comment="修改readme">
+    <list default="true" id="c5f6f141-af9b-442a-a9d4-36e078db91dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="276">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="465" column="15" selection-start-line="465" selection-start-column="15" selection-end-line="465" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -44,6 +54,9 @@
       <find>.container .device-list</find>
       <find>contact-item</find>
       <find>var</find>
+      <find>.container .application-wrap .button-box .button</find>
+      <find>.container .application-wrap .button-box</find>
+      <find>.container .contact-full .card-link</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -55,12 +68,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/styles/index.css" />
         <option value="$PROJECT_DIR$/js/utils.js" />
         <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/CNAME" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles/index.css" />
       </list>
     </option>
   </component>
@@ -88,8 +101,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EPUB-SDK-CN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EPUB-SDK-CN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EPUB-SDK-CN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EPUB-SDK-CN" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,6 +177,7 @@
       <updated>1599705945950</updated>
       <workItem from="1599705947129" duration="6202000" />
       <workItem from="1599733445175" duration="111000" />
+      <workItem from="1599733575612" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 完成首页内容">
       <created>1599723168711</created>
@@ -171,20 +200,34 @@
       <option name="project" value="LOCAL" />
       <updated>1599724723315</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: 适配移动端首页2">
+      <created>1599733631681</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599733631681</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: 适配移动端首页3">
+      <created>1599734825767</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599734825767</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6313000" />
+    <option name="totallyTimeSpent" value="6671000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-1057" width="1938" height="1057" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11476265" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1529246" />
       <window_info id="Structure" order="1" weight="0.24973601" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16647531" />
@@ -194,8 +237,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.49138921" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31802526" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.49036145" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31686747" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -204,22 +248,43 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="feat: 完成首页内容" />
     <MESSAGE value="feat: 完成首页内容2" />
     <MESSAGE value="修改readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改readme" />
+    <MESSAGE value="feat: 适配移动端首页2" />
+    <MESSAGE value="feat: 适配移动端首页3" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 适配移动端首页3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="463" column="1" selection-start-line="463" selection-start-column="1" selection-end-line="463" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -245,8 +310,15 @@
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="276">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="465" column="15" selection-start-line="465" selection-start-column="15" selection-end-line="465" selection-end-column="15" />
         </state>
       </provider>
     </entry>
