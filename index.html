@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>NEAT EPUB SDK | EPUB 阅读器及解决方案专家</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
     <meta name="keywords" content="epub sdk, epub reader development, ios epub sdk, android epub sdk, web epub sdk, js epub sdk,windows epub sdk,best epub sdk,epubsdk">
     <meta name="description" content="Neat EPUB SDK comes from the widely acclaimed EPUB reader Neat Reader, which has withstood the test of the market and won the recognition of the majority of users. Whether you are developing an EPUB reader for Android, iOS, Web browser, or even Windows and Mac, we can provide you with corresponding solutions to help you win the success of the project.">
@@ -20,6 +21,18 @@
                 <li class="nav-item"><a href="javascript:;">客户案例</a></li>
             </ul>
             <a href="#contact-wrap" class="contact-btn button">联系我们</a>
+            <span class="menu"></span>
+            <div class="menu-wrapper">
+                <div class="inner-wrapper">
+                    <h3 class="wrapper-title">目录</h3>
+                    <ul class="wrapper-box">
+                        <li class="box-item"><a href="">首页</a></li>
+                        <li class="box-item"><a href="">首页</a></li>
+                        <li class="box-item"><a href="">首页</a></li>
+                        <li class="box-item"><a href="">首页</a></li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section class="banner">
             <div class="center-align">
@@ -165,17 +178,15 @@
             <h2 class="contact-title">现在就联系我们，了解更多信息信息吧</h2>
             <p class="contact-info">我们的工作时间为：北京时间，周一到周五，上午10:00至下午5:00</p>
         </section>
-        <section class="contact-full" id="contact1">
-            <div class="contact-card">
+        <section class="contact-full">
+            <div class="contact-card" id="contact1">
                 <div class="card-top">
                     <img src="img/contact-us.png" alt="contact">
                 </div>
                 <p class="card-info">由于垃圾信息过多，我们对联系信息进行了加密保护，点击下面按钮，即可看到真实的联系信息，敬请谅解</p>
                 <a href="javascript:;" class="card-link" id="click-btn">显示联系信息</a>
             </div>
-        </section>
-        <section class="contact-full" id="contact2" style="display: none;">
-            <div class="contact-card">
+            <div class="contact-card hide" id="contact2">
                 <div class="card-top">
                     <img src="img/contact-us.png" alt="contact">
                 </div>
@@ -222,8 +233,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let item = document.querySelectorAll('.contact-item');
 
     btn.addEventListener('click', () => {
-        contact1.style.display = 'none';
-        contact2.style.display = 'block';
+        contact1.className = 'contact-card hide';
+        contact2.className = 'contact-card';
 
         Array.from(item).forEach((ele, idx) => {
             ele.innerHTML = arr[idx];
