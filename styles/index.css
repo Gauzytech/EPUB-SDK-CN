@@ -1,6 +1,4 @@
 @import "base.css";
-@import "fonts/Feather/feather.css";
-@import "fonts/HKGroteskPro/HKGroteskPro.css";
 
 .show{
     display: block !important;
@@ -68,10 +66,47 @@
     overflow-x: hidden;
     overflow-y: scroll;
     display: none;
+    z-index: 10;
 }
 .container .top-nav .menu-wrapper.open{
     display: block;
 }
+.container .top-nav .inner-wrapper{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.container .top-nav .wrapper-title{
+    font-size: 16px;
+    line-height: 24px;
+}
+.container .top-nav .close-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+}
+.container .top-nav .close-btn i{
+    display: block;
+    text-align: center;
+    margin-top: 3px;
+}
+.container .top-nav .wrapper-box{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 0;
+}
+.container .top-nav .wrapper-box .box-item{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    width: 50%;
+    padding: 0;
+}
+
 .container .button{
     display: none;
 }
@@ -85,6 +120,7 @@
     padding: 0 20px;
 }
 .container .center-align{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -100,12 +136,12 @@
     margin-right: auto;
 }
 .container .left-info{
-    display: none;
+    padding-top: 20px;
 }
 .container .left-info .title{
     font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 24px;
+    line-height: 36px;
     color: #161C2D;
 }
 .container .left-info .title span{
@@ -115,30 +151,39 @@
 }
 .container .left-info .sec-title{
     font-weight: 400;
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 24px;
     color: #161C2D;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .container .left-info .info-more{
     font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 15px;
+    line-height: 22px;
     color: #869AB8;
     padding-bottom: 5px;
 }
 .container .left-info .button-wrap{
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: 45px;
     margin-top: 40px;
 }
-.container .left-info .button-wrap a{
+.container .left-info .info-button{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #3764e7;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
     margin-right: 20px;
 }
-.container .left-info .button-wrap a:nth-of-type(2){
+.container .left-info .info-button:nth-of-type(2){
     background-color: #e9effc;
     color: #3764e7;
+    margin-right: 0;
 }
 
 .container .category{
@@ -209,7 +254,7 @@
     line-height: 45px;
     background: #3764e7;
     color: #fff;
-    border-radius: 40px;
+    border-radius: 4px;
     text-align: center;
     font-size: 18px;
     font-weight: 700;
@@ -467,7 +512,7 @@
     height: 45px;
     line-height: 45px;
     background: #3764e7;
-    border-radius: 40px;
+    border-radius: 4px;
     text-align: center;
     font-weight: 700;
     transition: box-shadow .25s ease,transform .25s ease,-webkit-transform .25s ease;
@@ -620,6 +665,30 @@ svg {
         display: block;
         flex: 0 0 47%;
         margin-right: 40px;
+        padding-top: 0;
+    }
+    .container .left-info .button-wrap{
+        height: 50px;
+    }
+    .container .left-info .title{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+        color: #161C2D;
+    }
+    .container .left-info .info-more{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #869AB8;
+        padding-bottom: 5px;
+    }
+    .container .left-info .sec-title{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        color: #161C2D;
+        padding-bottom: 20px;
     }
     .container .banner-img{
         flex: 0 0 40%;
@@ -627,6 +696,8 @@ svg {
         height: 100%;
         width: 100%;
         margin-left: 40px;
+        -webkit-box-ordinal-group: 3;
+        order: 2;
     }
     .container .banner-img img{
         display: block;
