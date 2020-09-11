@@ -4,7 +4,6 @@
     <list default="true" id="c5f6f141-af9b-442a-a9d4-36e078db91dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="258" column="49" selection-start-line="258" selection-start-column="49" selection-end-line="258" selection-end-column="49" />
+            <state relative-caret-position="429">
+              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -35,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+            <state relative-caret-position="125">
+              <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -57,7 +56,6 @@
       <find>var</find>
       <find>.container .application-wrap .button-box</find>
       <find>.container .banner</find>
-      <find>.container .left-info</find>
       <find>container .left-info .title</find>
       <find>.container .left-info .sec-title</find>
       <find>.container .left-info .info-more</find>
@@ -70,6 +68,9 @@
       <find>container-full</find>
       <find>inner-wrapper</find>
       <find>menu-wrapper</find>
+      <find>.container .left-info</find>
+      <find>#contact-wrap</find>
+      <find>contact-wrap</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -186,7 +187,8 @@
       <workItem from="1599705947129" duration="6202000" />
       <workItem from="1599733445175" duration="111000" />
       <workItem from="1599733575612" duration="494000" />
-      <workItem from="1599791748353" duration="2429000" />
+      <workItem from="1599791748353" duration="3045000" />
+      <workItem from="1599813128845" duration="248000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 完成首页内容">
       <created>1599723168711</created>
@@ -230,17 +232,31 @@
       <option name="project" value="LOCAL" />
       <updated>1599734927908</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: 修改移动端首页相关样式">
+      <created>1599794405259</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599794405259</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: 修改移动端首页相关样式2">
+      <created>1599807537275</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599807537275</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9236000" />
+    <option name="totallyTimeSpent" value="10100000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1529246" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1529246" />
       <window_info id="Structure" order="1" weight="0.24973601" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -313,7 +329,9 @@
     <MESSAGE value="feat: 适配移动端首页2" />
     <MESSAGE value="feat: 适配移动端首页3" />
     <MESSAGE value="feat: 适配移动端首页4" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 适配移动端首页4" />
+    <MESSAGE value="feat: 修改移动端首页相关样式" />
+    <MESSAGE value="feat: 修改移动端首页相关样式2" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 修改移动端首页相关样式2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/utils.js">
@@ -346,15 +364,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+        <state relative-caret-position="125">
+          <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="258" column="49" selection-start-line="258" selection-start-column="49" selection-end-line="258" selection-end-column="49" />
+        <state relative-caret-position="429">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
         </state>
       </provider>
     </entry>
