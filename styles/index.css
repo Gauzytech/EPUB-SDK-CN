@@ -19,7 +19,7 @@
     padding: 10px 20px;
 }
 .container .top-nav .logo{
-    flex: 0 0 142px;
+    flex: 0 0 180px;
     font-weight: 700;
     font-size: 20px;
     line-height: 50px;
@@ -625,6 +625,12 @@ svg {
     }
     .device-full{
         display: flex !important;
+    }
+    .container .top-nav .logo{
+        flex: 0 0 142px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 50px;
     }
     .container .top-nav{
         display: flex;
